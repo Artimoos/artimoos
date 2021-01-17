@@ -85,3 +85,40 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* Badges */
+
+/* The second principle of inheritance in CSS(this is said in second part) */
+/* the structure is something that is common to all badges(in another word bage is a block)  */
+/* and different skins are different modifiers in BEM */
+.badge {
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .bage {
+    font-size: 1.5rem;
+  }
+
+  .bage--small {
+    font-size: 1.2rem;
+  }
+}
