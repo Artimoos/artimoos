@@ -1,2 +1,5 @@
 Code Along/
 Moshify/
+node_modules/
+dist/
+.cache/
